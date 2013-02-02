@@ -1,3 +1,12 @@
-var mess = "Yo \"this\" is a numbe", x =4;
-alert(mess + " " +  x); // fixing concatination and learning how to comment, which is super boring
+var x = true;
+
+if (x) {
+	alert("OMg works");
+}
+else {
+	alert("broke");
+
+}
+
+
 
