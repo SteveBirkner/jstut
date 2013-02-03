@@ -1,12 +1,13 @@
-var x = true;
+var grade = "Prem";
 
-if (x) {
-	alert("OMg works");
+switch (grade){
+	case "reg" : 
+		alert ("cool");
+		break;
+	case "Prem" : 
+		alert("Awesome");
+		break;
+	default: 
+		alert("WOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO");
+	
 }
-else {
-	alert("broke");
-
-}
-
-
-
