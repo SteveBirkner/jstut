@@ -1,6 +1,7 @@
-var phrase = "OVER 9000"
+var arr = []; 
 
-alert(phrase.indexOf("9000"));
-alert(phrase.slice(5,7));
-alert(phrase.slice(5));
+arr[0]= 60;
+
+alert(arr[0]);
+
 
