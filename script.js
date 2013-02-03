@@ -1,8 +1,13 @@
-function myFunc () {
-	alert("zomg function");
+var a=5,b=5;
+
+function myFunc (a,b) {
+	var result = a+b;
+	alert(result);
 }
 
 
-myFunc();
+myFunc(a,b);
+myFunc(3,70);
+
 
 
