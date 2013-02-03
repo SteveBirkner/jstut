@@ -1,7 +1,6 @@
-var a = 1;
+var phrase = "OVER 9000"
 
-while (a < 4) {
-	alert(a);
-	a++;
-}
+alert(phrase.indexOf("9000"));
+alert(phrase.slice(5,7));
+alert(phrase.slice(5));
 
