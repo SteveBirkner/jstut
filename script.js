@@ -1,7 +1,6 @@
-var arr = []; 
+var headline= document.getElementById("mainHeading");
 
-arr[0]= 60;
+headline.innerHTML = "Wow new headline!!!!";
 
-alert(arr[0]);
 
 
